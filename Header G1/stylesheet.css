@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-top {
+    background-color: #f3f3f3;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+}
+
+.links-left, .links-right {
+    display: flex;
+    justify-content: baseline;
+    gap: 15px;
+}
+
+.link-button a {
+    font-weight: bolder;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+.item-right a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn-entrar a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*    HEADER CSS NOW!!!      */
+
+.header-page {
+    border-top: 3px solid rgba(0, 0, 0, 0.1);
+    background-color: #c4170c;
+    display: flex;
+    height: 72px;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 12px;
+}
+
+.header-items-left {
+    display: flex;
+    gap: 10px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.bi-list {
+    font-size: 20px;
+}
+
+.header-link-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-items-middle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:25px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    color: white;
+}
+
+form {
+    background-color:#a7140a;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+input, label {
+    background-color: transparent;
+    outline: 0;
+    border: 0;
+    color:#f3f3f3;
+    font-weight: bold;
+    margin: 3px;
+}
+
+input {
+    width: 100px;
+}
+
+
+input::placeholder {
+    color: white;
+    font-weight: bolder;
+}

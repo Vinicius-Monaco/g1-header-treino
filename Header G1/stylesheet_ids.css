@@ -1,0 +1,41 @@
+#nav-globo {
+    color: #0669de;
+}
+
+#nav-g1 {
+    color: #c4170c;
+}
+
+#nav-ge {
+    color: #06aa48;
+}
+
+#nav-gshow {
+    color: #ff6700;
+}
+
+#nav-globoplay {
+    color: #fb0234;
+}
+
+#nav-oGlobo {
+    color: #1e4c9a;
+}
+
+#link-assinar {
+    color: #999999;
+    font-size: 13px;
+    font-weight: 100;
+}
+
+#link-assinar:hover {
+    color: #1063e0;
+}
+
+
+#link-entrar {
+    color: #666666;
+    font-size: 13px;
+    margin: 3px;
+}
+
